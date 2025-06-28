@@ -1,0 +1,131 @@
+
+{
+  "Global": {
+    "appName": "Pancake on Steroids",
+    "appDescription": "Your personal fitness tracker, supercharged."
+  },
+  "WelcomeScreen": {
+    "title": "Pancake on Steroids",
+    "description": "Your personal fitness tracker, supercharged.",
+    "inputLabel": "Enter Your Workout Code",
+    "inputPlaceholder": "Enter your code here",
+    "button": "Start Workout"
+  },
+  "LayoutSettings": {
+    "title": "Layout Settings",
+    "fiveDaySplit": "5-Day Split",
+    "threeDaySplit": "3-Day Split",
+    "showCardio": "Show Cardio",
+    "swap": "Swap Order",
+    "displayOptions": "Display Options",
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "Footer": {
+    "autoSave": "Your data is saved automatically.",
+    "workoutId": "Workout ID:"
+  },
+  "Header": {
+    "statusConnecting": "Connecting to server...",
+    "statusSyncing": "Syncing data...",
+    "statusSynced": "Data is up to date.",
+    "statusError": "Connection error.",
+    "statusOffline": "Offline mode. Data is not saved.",
+    "statusNoProfile": "No workout plan selected.",
+    "userWorkout": "{{userName}}'s Workout",
+    "yourCode": "Your Code:",
+    "copyCode": "Copy Code",
+    "switchProfile": "Switch Profile",
+    "toastCopiedTitle": "Copied!",
+    "toastCopiedDescription": "Workout code copied to clipboard."
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Toggle {theme} mode"
+  },
+  "CardioProtocol": {
+    "title": "Cardio Protocol",
+    "warmUp": "Warm-up",
+    "duration": "Duration (mins)",
+    "level": "Level",
+    "rpm": "RPM",
+    "main": "Medium Intensity - Main",
+    "cycles": "Cycles",
+    "minutes": "Minutes",
+    "highIntensity": "High Intensity",
+    "coolDown": "Cool-down"
+  },
+  "ExerciseCard": {
+    "set": "Set {{i}}",
+    "weight": "Weight (kg)",
+    "level": "Level",
+    "kgPlaceholder": "kg",
+    "levelPlaceholder": "e.g., 5",
+    "weightPlaceholder": "e.g., 10",
+    "toggleSplit": "Toggle Split Weight Mode",
+    "reps": "Reps:",
+    "restStopwatch": "Rest Stopwatch",
+    "machineBusy": "Machine Busy",
+    "markAsDone": "Mark as Done",
+    "completed": "Completed",
+    "undo": "Undo Mark as Done"
+  },
+  "StrengthSplit": {
+    "title": "Strength Split",
+    "cancelWorkout": "Cancel",
+    "inProgress": "In Progress",
+    "completed": "Completed!",
+    "start": "Start",
+    "breakTime": "Time for a break!",
+    "endBreak": "End Break",
+    "restartDay": "Restart Day",
+    "finishWeek": "Finish Week & Reset All",
+    "dialogs": {
+      "cancelTitle": "Are you sure?",
+      "cancelDescription": "This will cancel your current workout session. You can start it again later.",
+      "cancelConfirm": "Yes, Cancel",
+      "cancelDeny": "No, Continue",
+      "restartTitle": "Are you sure you want to restart?",
+      "restartDescription": "This will reset your progress for this day. This action cannot be undone.",
+      "restartConfirm": "Continue",
+      "restartDeny": "Cancel",
+      "finishTitle": "Congratulations!",
+      "finishDescription": "You've completed all workouts for the week. This will reset all your progress. Are you ready to start a new week?",
+      "finishConfirm": "Reset Week",
+      "finishDeny": "Not Yet"
+    },
+    "fiveDaySplit": {
+      "day1": "Day 1: Chest",
+      "day2": "Day 2: Back",
+      "day3": "Day 3: Legs",
+      "day4": "Day 4: Shoulders",
+      "day5": "Day 5: Arms (Biceps & Triceps)"
+    },
+    "threeDaySplit": {
+      "day1": "Day 1: Chest & Biceps",
+      "day2": "Day 2: Back & Shoulders",
+      "day3": "Day 3: Legs & Triceps"
+    }
+  },
+  "LoadingScreen": {
+    "loading": "Loading your workout"
+  },
+  "Toasts": {
+      "invalidCodeTitle": "Invalid Code",
+      "invalidCodeDescription": "The workout code you entered is not valid.",
+      "authErrorTitle": "Authentication Error",
+      "authErrorDescription": "Not signed in.",
+      "permissionErrorTitle": "Firestore Permission Error",
+      "permissionErrorDescription": "The database rules are blocking access. Please copy the rules below and paste them in your Firebase Console (Firestore > Rules).",
+      "copyRules": "Copy Rules",
+      "rulesCopiedTitle": "Copied!",
+      "rulesCopiedDescription": "Firestore rules copied to clipboard.",
+      "authFailedTitle": "Authentication Failed",
+      "authFailedDescription": "Could not sign in. Check your Firebase API key and Auth settings.",
+      "anonSignInDisabledTitle": "Anonymous Sign-In Not Enabled",
+      "anonSignInDisabledDescription": "Please go to your Firebase Console, open Authentication > Sign-in method, and enable Anonymous sign-in.",
+      "cannotCancelTitle": "Cannot Cancel",
+      "cannotCancelDescription": "Cannot cancel a workout that has already started."
+  }
+}

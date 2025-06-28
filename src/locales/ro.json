@@ -1,0 +1,131 @@
+
+{
+  "Global": {
+    "appName": "Clătite pe Steroizi",
+    "appDescription": "Tracker-ul tău personal de fitness, supra-alimentat."
+  },
+  "WelcomeScreen": {
+    "title": "Clătite pe Steroizi",
+    "description": "Tracker-ul tău personal de fitness, supra-alimentat.",
+    "inputLabel": "Introdu codul de antrenament",
+    "inputPlaceholder": "Bagă codul aici Ioane",
+    "button": "Începe antrenamentul"
+  },
+  "LayoutSettings": {
+    "title": "Setări afișare",
+    "fiveDaySplit": "Split 5 zile",
+    "threeDaySplit": "Split 3 zile",
+    "showCardio": "Arată bicicletă",
+    "swap": "Schimbă ordinea",
+    "displayOptions": "Opțiuni afișare",
+    "theme": "Temă",
+    "language": "Limbă",
+    "light": "Luminos",
+    "dark": "Întunecat"
+  },
+  "Footer": {
+    "autoSave": "Datele tale sunt salvate automat.",
+    "workoutId": "ID Antrenament:"
+  },
+  "Header": {
+    "statusConnecting": "Conectare la server...",
+    "statusSyncing": "Sincronizare date...",
+    "statusSynced": "Datele sunt actualizate.",
+    "statusError": "Eroare de conexiune.",
+    "statusOffline": "Mod offline. Datele nu se salvează.",
+    "statusNoProfile": "Niciun plan de antrenament selectat.",
+    "userWorkout": "Antrenamentul lui {{userName}}",
+    "yourCode": "Codul tău:",
+    "copyCode": "Copiază Codul",
+    "switchProfile": "Schimbă profilul",
+    "toastCopiedTitle": "Copiat!",
+    "toastCopiedDescription": "Codul de antrenament a fost copiat."
+  },
+  "ThemeToggle": {
+    "toggleTheme": "Schimbă în modul {theme}"
+  },
+  "CardioProtocol": {
+    "title": "Protocol cardio",
+    "warmUp": "Încălzire",
+    "duration": "Durată (min)",
+    "level": "Nivel",
+    "rpm": "RPM",
+    "main": "Intensitate medie - Principal",
+    "cycles": "Cicluri",
+    "minutes": "Minute",
+    "highIntensity": "Intensitate ridicată",
+    "coolDown": "Răcire"
+  },
+  "ExerciseCard": {
+    "set": "Setul {{i}}",
+    "weight": "Greutate (kg)",
+    "level": "Nivel",
+    "kgPlaceholder": "kg",
+    "levelPlaceholder": "ex., 5",
+    "weightPlaceholder": "ex., 10",
+    "toggleSplit": "Comută Mod Greutate Split",
+    "reps": "Repetări:",
+    "restStopwatch": "Cronometru pauză",
+    "machineBusy": "Aparat ocupat",
+    "markAsDone": "Marchează ca terminat",
+    "completed": "Terminat",
+    "undo": "Anulează terminarea"
+  },
+  "StrengthSplit": {
+    "title": "Split forță",
+    "cancelWorkout": "Anulează",
+    "inProgress": "În Progres",
+    "completed": "Terminat!",
+    "start": "Start",
+    "breakTime": "E timpul pentru o pauză!",
+    "endBreak": "Termină pauza",
+    "restartDay": "Repornește ziua",
+    "finishWeek": "Termină săptămâna și resetează Tot",
+    "dialogs": {
+      "cancelTitle": "Ești sigur?",
+      "cancelDescription": "Acest lucru va anula sesiunea curentă de antrenament. O poți începe din nou mai târziu.",
+      "cancelConfirm": "Da, Anulează",
+      "cancelDeny": "Nu, Continuă",
+      "restartTitle": "Ești sigur că vrei să repornești?",
+      "restartDescription": "Acest lucru va reseta progresul pentru această zi. Această acțiune nu poate fi anulată.",
+      "restartConfirm": "Continuă",
+      "restartDeny": "Anulează",
+      "finishTitle": "Felicitări!",
+      "finishDescription": "Ai terminat toate antrenamentele pe săptămâna aceasta. Progresul tău va fi resetat. Ești gata să începi o nouă săptămână?",
+      "finishConfirm": "Resetează săptămâna",
+      "finishDeny": "Nu încă"
+    },
+    "fiveDaySplit": {
+      "day1": "Ziua 1: Piept",
+      "day2": "Ziua 2: Spate",
+      "day3": "Ziua 3: Picioare",
+      "day4": "Ziua 4: Umeri",
+      "day5": "Ziua 5: Brațe (biceps & triceps)"
+    },
+    "threeDaySplit": {
+      "day1": "Ziua 1: Piept & Biceps",
+      "day2": "Ziua 2: Spate & Umeri",
+      "day3": "Ziua 3: Picioare & Triceps"
+    }
+  },
+  "LoadingScreen": {
+    "loading": "Se încarcă antrenamentul"
+  },
+  "Toasts": {
+      "invalidCodeTitle": "Cod Invalid",
+      "invalidCodeDescription": "Codul de antrenament introdus nu este valid.",
+      "authErrorTitle": "Eroare de Autentificare",
+      "authErrorDescription": "Nu ești autentificat.",
+      "permissionErrorTitle": "Eroare de Permisiune Firestore",
+      "permissionErrorDescription": "Regulile bazei de date blochează accesul. Te rugăm să copiezi regulile de mai jos și să le adaugi în Consola Firebase (Firestore > Rules).",
+      "copyRules": "Copiază regulile",
+      "rulesCopiedTitle": "Copiat!",
+      "rulesCopiedDescription": "Regulile Firestore au fost copiate.",
+      "authFailedTitle": "Autentificare Eșuată",
+      "authFailedDescription": "Nu s-a putut autentifica. Verifică cheia API Firebase și setările de autentificare.",
+      "anonSignInDisabledTitle": "Autentificare Anonimă Neactivată",
+      "anonSignInDisabledDescription": "Te rugăm să mergi în Consola Firebase, să deschizi Authentication > Sign-in method și să activezi autentificarea anonimă.",
+      "cannotCancelTitle": "Nu se poate anula",
+      "cannotCancelDescription": "Nu poți anula un antrenament care a început deja."
+  }
+}
